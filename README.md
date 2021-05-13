@@ -7,6 +7,6 @@ Open the HTML file, inspect the "Hello World!" line.  There will be some whitesp
 
 Uncomment the IndentAttributor javascript to use the Attributor.
 Refresh the file in your browser.
-Inspect the "Hello World!" line.  The text-indent style remains on the <p> tag, but there is also whitespace (a tab) inserted into the <p> element.  I don't believe this tab should have been inserted.
+Inspect the "Hello World!" line.  The text-indent style remains on the p tag, but there is also whitespace (a tab) inserted into the p element.  I don't believe this tab should have been inserted.
   
 I believe the cause of the issue is in the clipboard.js matchStyles() function in QuillJS.
